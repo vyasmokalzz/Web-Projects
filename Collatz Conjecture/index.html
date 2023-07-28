@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+    <h1 class="heading">
+        3x + 1
+    </h1>
+    <div class="inputs">    
+        <div class="main">
+            <label for="number">Enter the Number: </label><input type="number" name="number" id="num" min="0">
+            <button class="btn" onclick="step_counter()">Solve</button>
+        </div>
+        <div class="result">
+            <label for="result">Number of Steps: </label><input type="text" name="result" id="res" readonly>
+        </div>
+        <div class="graph" id="gr">
+            <canvas id="myChart" style="width:100vw;max-width:600px;height: 70vh;"></canvas>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
