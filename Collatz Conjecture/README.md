@@ -27,3 +27,18 @@ Continuing in same way we get sequence starting from 7
 >7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1
 
 </p>
+
+<p>
+  In this project given a number the program calculates value at each iteration and plots the graph 📉 of the sequence and gives number of steps required to reach to number 1.<br>
+  You can try out putting different values and see how long the sequences are generated.
+</p>
+
+<div align="center">
+<h3><a href="https://vyasmokalzz.github.io/Collatz_Conjecture.github.io/"  target="_blank">Here is the Link to the Project</a></h3>
+<img  align="center" src="https://github.com/vyasmokalzz/Collatz_Conjecture.github.io/assets/102199618/eb90b03f-f775-401c-a083-384edf2b8b7f" width="75%">
+</div>
+
+<br>
+
+> **Important**
+Use Positive values only
